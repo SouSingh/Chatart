@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import PyPDF2
 from PyPDF2 import PdfReader
 
 def save_to_folder(uploaded_file, folder_path):

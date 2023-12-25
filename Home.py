@@ -3,7 +3,7 @@ from code import overall
 from Pdf import main
 
 # Sidebar navigation buttons
-if st.sidebar.button("Chat_AI", key="home_button", help="Click to go home"):
+if st.sidebar.button("Chat_ai", key="home_button", help="Click to go home"):
     st.title("ChatART")
     st.write("Welcome to the World of ART")
 
