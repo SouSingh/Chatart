@@ -53,7 +53,7 @@ class ArtistPortfolioApp:
 
             # Load existing data if the file exists
             try:
-                with open("artist_data.json", "r") as existing_file:
+                with open("data/artist_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -83,7 +83,7 @@ class ArtistPortfolioApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("artist_data.json", "w") as json_file:
+            with open("data/artist_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -156,7 +156,7 @@ class ArtworkPortfolioApp:
 
             # Load existing data if the file exists
             try:
-                with open("artwork_data.json", "r") as existing_file:
+                with open("data/artwork_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -184,7 +184,7 @@ class ArtworkPortfolioApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("artwork_data.json", "w") as json_file:
+            with open("data/artwork_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -249,7 +249,7 @@ class SalesPricingApp:
 
             # Load existing data if the file exists
             try:
-                with open("sales_pricing_data.json", "r") as existing_file:
+                with open("data/sales_pricing_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -273,7 +273,7 @@ class SalesPricingApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("sales_pricing_data.json", "w") as json_file:
+            with open("data/sales_pricing_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -320,7 +320,7 @@ class ExhibitionsProjectsApp:
 
             # Load existing data if the file exists
             try:
-                with open("exhibitions_projects_data.json", "r") as existing_file:
+                with open("data/exhibitions_projects_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -334,7 +334,7 @@ class ExhibitionsProjectsApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("exhibitions_projects_data.json", "w") as json_file:
+            with open("data/exhibitions_projects_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -401,7 +401,7 @@ class WorkPresentationApp:
 
             # Load existing data if the file exists
             try:
-                with open("work_presentation_data.json", "r") as existing_file:
+                with open("data/work_presentation_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -424,7 +424,7 @@ class WorkPresentationApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("work_presentation_data.json", "w") as json_file:
+            with open("data/work_presentation_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -483,7 +483,7 @@ class ArtCriteriaApp:
 
             # Load existing data if the file exists
             try:
-                with open("art_criteria_data.json", "r") as existing_file:
+                with open("data/art_criteria_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -507,7 +507,7 @@ class ArtCriteriaApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("art_criteria_data.json", "w") as json_file:
+            with open("data/art_criteria_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -519,8 +519,6 @@ class ArtCriteriaApp:
         if st.button("Save to JSON", key="art_save_button"):
             self.save_data_to_json()
 
-import streamlit as st
-import json
 
 class ArtisticQuestionsApp:
     def __init__(self):
@@ -582,7 +580,7 @@ class ArtisticQuestionsApp:
 
             # Load existing data if the file exists
             try:
-                with open("artistic_questions_data.json", "r") as existing_file:
+                with open("data/artistic_questions_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -610,7 +608,7 @@ class ArtisticQuestionsApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("artistic_questions_data.json", "w") as json_file:
+            with open("data/artistic_questions_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -624,7 +622,7 @@ class ArtisticQuestionsApp:
 
 
 
-if __name__ == "__main__":
+def overall():
     artist_app = ArtistPortfolioApp()
     artist_app.run()
     artwork_app = ArtworkPortfolioApp()
