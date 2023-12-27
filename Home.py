@@ -12,7 +12,7 @@ if st.sidebar.button("Artist_Form", key="page1_button", help="Click to go to Art
     st.write("Welcome to Artist fill up center")
     overall()
 
-if st.sidebar.button("Document Upload", key="page2_button", help="Click to go to Page 2"):
+if st.sidebar.button("Artist_Writer", key="page2_button", help="Click to go to Page 2"):
     st.title("Artist Writer Corner")
     st.write("Upload Your ART paper and our AI will help find your answer in smart manner.")
     art_writing_portfolio()
