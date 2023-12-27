@@ -1,0 +1,54 @@
+﻿Metadata Guide for Art Writer
+Author Information
+* Author Name: `<Your Name>`
+* Description: `<Brief description of yourself and your research focus>`
+* Author Website: `<Your website URL, e.g. https://yourname.example.com>`
+* Author Biography: `<A comprehensive biography detailing your research journey, education, and notable achievements, exhibitions, and projects>\`
+* Author Statement: `<A statement outlining your research philosophy, intent, interests, and vision, creative writing process, inspiration, and conceptual approach to your work>`
+* References or external links that provide additional context and background information: `<Relevant publications, interviews, articles, or resources where your work has been featured, e.g. [Article Title](https://example.com/article-url)>`
+Art Writing Information
+* Art Writing Title: `<Art Writing Title>`
+* Date Created: `<Year of Creation>`
+* Type: `<Art Writing Type e.g. "Research Paper", “Article”, “MHD Thesis”, “BA Thesis”, “PHD Thesis”>`
+* Dimensions: `<Pages, File Size,>`
+- Pages: `<Number of Pages>`
+- Format: `<Page Format>`
+- File Size: `<File Size and File Format>`
+* Description of Art Writing: `<A brief description of your writing, including its structure concept, unique features, techniques, subject matter, themes, goals and contextual elements>`
+* Relevance of the art writing:\`<Explain the relevance of your art writing in the context of the art world or related fields and how it contributes to the understanding of the subject at hand>\`
+* Themes: \`<List the main themes explored in your art writing, such as historical aspects, artistic movements, cultural influences, or artistic practices>\`
+* Keywords: \`<Key terms or phrases relevant to your art writing, used for indexing and searchability purposes>\`
+* Abstract: \`<A concise summary of your art writing, outlining its main points, objectives, and conclusions>\`
+* Art Works or Artists Discussed: \`<List the artworks or artists discussed in your art writing, if applicable>\`
+* Citation Information: \`<Provide the recommended citation for your art writing, including your name, the title, date, and any necessary publication information>\`
+Additional Resources
+* Supplementary Materials: \`<If applicable, list any supplementary materials related to your art writing, such as images, videos, or additional documents>\`
+* Image Credits: \`<Provide credit and sources for any images used in your art writing, including a brief description of each image and any necessary copyrights or permissions>\
+* Video Credits: \`<Provide credit and sources for any videos used in your art writing, including a brief description of each video and any necessary copyrights or permissions>
+* Related Publications: \`<List any publications closely related to your art writing, such as previous works by you or other authors that elaborate or expand upon the themes, concepts, or techniques discussed in your writing>\`
+* Recommended Readings: \`<List any books, articles, orother references you recommend for further reading, including the title, author, and publication year for each source>\\\`
+* References: \`<List all sources actually cited in your art writing, following a specific citation style. Ensure to give full details such as title, author, publication year, and page numbers>\\\`
+* External Links: \`<Provide any external links that offer additional insights or perspectives related to your art writing. These can include online articles, videos, presentations, archival material, databases, etc.>\\\`
+Journal or Magazine Details
+* Journal/Magazine Name: \`<Name of the Journal or Magazine in which your art writing is published>`
+* Publisher: \`<Name of the Journal/Magazine Publisher>\`
+* Volume and Issue: \`<The volume and issue number of the journal or magazine, if applicable>\`
+* Page Range: `<Exact page range where your art writing starts and ends in the journal or magazine>`
+* ISSN or ISBN: `<Unique identifier number for the journal or the book, if applicable>`
+* DOI: `<Digital Object Identifier if your art writing has one>\`
+* Date of Publication: `<Exact date (day, month, year) of your art writing publication>`
+* Journal/Magazine Website:`<[Journal/Magazine Website URL>](URL)
+Art Writing Key Takeaways
+* Art Writing's Key Takeaways:
+* 1. `<Summarize the main takeaway or learning from your art writing>\`
+* 2. `<Another important point or conclusion that readers should be aware of>\`
+* 3. \`<Additional finding or insight that supports the overall argument or idea of your writing>\`
+* Personal Influence: <Describe how researching and writing about art have informed or shaped your own practice, and how the process has led you to new understandings or discoveries in your field. Discuss the changes or growth you've experienced, and the relationships or connections you've made through your work>`
+* Personal Journey: `<Detail how you will integrate the insights gained from your art writing into future projects, methodology, and overall research/work perspective>\`
+Conclusion
+* Overall summary/Evaluation:`<Evaluate, in summary, the quality, impact and relevance of your art writing. Discuss the effectiveness of the argument or concept presented, its influence on the study of art, and its potential for future related research or work>`
+Art Writing
+Art Writing :\`<Here is the space for you to insert/attach the full text/compilation of your Art Writing. Remember to ensure the clarity and readability of the composition, using appropriate paragraphs and division of headings or subheadings if necessary.\>`
+For Academic Context: Review
+* Reviewed by: 1.\\ \`<Name1_Full Prefix\\ Credentials, if applicable\\ e.g. Dr., Prof.\>\` 2. \\ \`<Name2_Full Prefix\\ Credentials, if applicable\\ e.g. Dr., Prof.\>\`
+* Review Summary: \\ \`<Brief summary of the comprehensive review. Include specific comments by reviewers, the strengths and weaknesses they highlighted, and their recommendations for improvements or further development>

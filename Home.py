@@ -1,6 +1,6 @@
 import streamlit as st
-from code import overall
-from Pdf import main
+from coded import overall
+from Writer import art_writing_portfolio
 
 # Sidebar navigation buttons
 if st.sidebar.button("Chat_ai", key="home_button", help="Click to go home"):
@@ -13,6 +13,6 @@ if st.sidebar.button("Artist_Form", key="page1_button", help="Click to go to Art
     overall()
 
 if st.sidebar.button("Document Upload", key="page2_button", help="Click to go to Page 2"):
-    st.title("Research paper Collector")
+    st.title("Artist Writer Corner")
     st.write("Upload Your ART paper and our AI will help find your answer in smart manner.")
-    main()
+    art_writing_portfolio()

@@ -53,7 +53,7 @@ class ArtistPortfolioApp:
 
             # Load existing data if the file exists
             try:
-                with open("data/artist_data.json", "r") as existing_file:
+                with open("data/Artist/artist_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -83,7 +83,7 @@ class ArtistPortfolioApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("data/artist_data.json", "w") as json_file:
+            with open("data/Artist/artist_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -156,7 +156,7 @@ class ArtworkPortfolioApp:
 
             # Load existing data if the file exists
             try:
-                with open("data/artwork_data.json", "r") as existing_file:
+                with open("data/Artist/artwork_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -184,7 +184,7 @@ class ArtworkPortfolioApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("data/artwork_data.json", "w") as json_file:
+            with open("data/Artist/artwork_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -249,7 +249,7 @@ class SalesPricingApp:
 
             # Load existing data if the file exists
             try:
-                with open("data/sales_pricing_data.json", "r") as existing_file:
+                with open("data/Artist/sales_pricing_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -273,7 +273,7 @@ class SalesPricingApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("data/sales_pricing_data.json", "w") as json_file:
+            with open("data/Artist/sales_pricing_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -320,7 +320,7 @@ class ExhibitionsProjectsApp:
 
             # Load existing data if the file exists
             try:
-                with open("data/exhibitions_projects_data.json", "r") as existing_file:
+                with open("data/Artist/exhibitions_projects_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -334,7 +334,7 @@ class ExhibitionsProjectsApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("data/exhibitions_projects_data.json", "w") as json_file:
+            with open("data/Artist/exhibitions_projects_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -401,7 +401,7 @@ class WorkPresentationApp:
 
             # Load existing data if the file exists
             try:
-                with open("data/work_presentation_data.json", "r") as existing_file:
+                with open("data/Artist/work_presentation_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -424,7 +424,7 @@ class WorkPresentationApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("data/work_presentation_data.json", "w") as json_file:
+            with open("data/Artist/work_presentation_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -483,7 +483,7 @@ class ArtCriteriaApp:
 
             # Load existing data if the file exists
             try:
-                with open("data/art_criteria_data.json", "r") as existing_file:
+                with open("data/Artist/art_criteria_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -507,7 +507,7 @@ class ArtCriteriaApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("data/art_criteria_data.json", "w") as json_file:
+            with open("data/Artist/art_criteria_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -580,7 +580,7 @@ class ArtisticQuestionsApp:
 
             # Load existing data if the file exists
             try:
-                with open("data/artistic_questions_data.json", "r") as existing_file:
+                with open("data/Artist/artistic_questions_data.json", "r") as existing_file:
                     existing_data = json.load(existing_file)
             except (FileNotFoundError, json.JSONDecodeError):
                 existing_data = []
@@ -608,7 +608,7 @@ class ArtisticQuestionsApp:
             existing_data.append(data_to_save)
 
             # Save the updated data to the file
-            with open("data/artistic_questions_data.json", "w") as json_file:
+            with open("data/Artist/artistic_questions_data.json", "w") as json_file:
                 json.dump(existing_data, json_file, indent=4)
 
             st.success("Data saved to JSON successfully!")
@@ -637,5 +637,7 @@ def overall():
     art_criteria_app.run()
     artistic_questions_app = ArtisticQuestionsApp()
     artistic_questions_app.run()
+
+
 
 
